@@ -1,14 +1,231 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <script></script>
-    <title>Feria de Plantas</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feria de las Plantas</title>
     
-</body>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <header id="mainheader">
+      <nav id="navbar">
+        <div class="container-1">
+          <div class="showcaselog-img">
+            <a href="">
+            <img
+              src="./assets/logo.png"
+              alt="showcase"
+            />
+            </a>
+          </div>
+          <ul>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#tiempo">Tiempo</a></li>
+            <li><a href="#registrate">Registro</a></li>
+            <li><a href="#evento">Evento</a></li>
+            <li><a href="#nosotros">Quienes somos</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="imagencactus">
+        <div class="showcasecactus-img">
+          <img
+            src="./assets/cactus1.png"
+            alt="showcase"
+          />
+        </div>
+      </nav>
+      <div class="showcase-text-evento">
+        <h1>
+          FERIA DE LAS PLANTAS
+        </h1>
+      </div>
+      <nav class="imagenplanta">
+        <div class="showcaseplanta-img">
+          <img
+            src="./assets/planta1.png"
+            alt="showcase"
+          />
+        </div>
+     
+      <div id="showcase">
+      </nav>
+        <div class="container">
+          
+          <div class="showcase-text">
+            <h1>
+              <span class="title-one">JUNTOS POTENCIAMOS</span><br />
+              <span class="title-two">EL</span><br>
+              <span class="title-two">COMERCIO JUJEÑO</span><br />
+            </h1>
+            <p class="large">
+              En el marco del fomento del Gobierno de Jujuy al desarrollo de emprendedores jujeños, el Ministerio de Desarrollo Económico y Producción organiza la Feria de Plantas con el objetivo de fortalecer y apoyar fuertemente al sector productor de flores y plantas ornamentales de nuestra Provincia.- 
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- video -->
+    <section id="evento">
+      <div id="showcasevid">
+        <div class="container">
+          <!-- video -->
+          <nav class="imagentira">
+            <div class="showcasetira-img">
+              <img
+                src="./assets/tira-planta.jpeg"
+                alt="showcase"
+              />
+            </div>
+          </nav>
+          <div class="showcase-vid">
+            <iframe
+              width="900"
+              height="400"
+              src="https://www.youtube.com/embed/9PBOyTnzi_w"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- texto -->
+          <div class="showcasevid-text">
+            <h2><span class="titlevid-one"> JUNTOS POTENCIAMOS EL COMERCIO JUJEÑO  </span><br /></h2>
+            <h3><span class="subtitlevid">Invitamos al público en general a disfrutar de la Nueva Edición de la Feria de Plantas, que se realizara en Ciudad Cultural, con exposición y ventas de flores y plantas ornamentales, creación y producción de floricultores de la provincia </span></h3>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+       <!-- NOSOTROS  -->
+       <section id="nosotros">
+        <div id="showcasenos">
+          <div class="container-2">
+            <nav class="imagennos">
+              <div class="showcasenos-img">
+                <img
+                  src="./assets/logo.png"
+                  alt="showcase"
+                />
+              </div>
+            </nav>
+            <div class="showcasenos-text">
+              <h1>
+                <span class="titlenos-one">NOSOTROS</span>
+                
+              </h1>
+              <p class="large-nos">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum
+                vitae sapiente corporis aliquam, ratione voluptatum eligendi
+                repudiandae ut sint officia molestias natus, repellat autem!
+                Dolorum deserunt perferendis minus necessitatibus.
+              </p>
+              <h1>
+                <span class="titleint-one">INTEGRANTES</span>
+                <nav class="integrantes">
+                  <div class="showcaseinteg-img">
+                    <img
+                      src="./assets/integrantes1.png"
+                      alt="showcase"
+                    />
+                  </div>
+                
+                <div id="showcase">
+                </nav>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+     
+      <br><br>
+<!-- contacto -->
+<div class="regist">
+<section id="registrate">
+  <div class="container-contacto">
+    <div class="titlereg">
+    <h1>
+      <span class="titlereg-form"> Formulario de Registro</span>
+    </h1>
+  </div>
+  <div class="registro-form">
+  <form id="formulario">
+  <div class="form-group">
+  <label for="name"></label>
+  <input id="comercio" class="form-control" type="text" placeholder="comercio">
+  </div>
+  <div class="form-group">
+  <label for="name"></label>
+  <input id="titular" class="form-control" type="text" placeholder="titular">
+  </div>
+  <div class="form-group">
+  <label for="name"></label>
+  <input id="celular" class="form-control" type="tel" placeholder="celular">
+  </div>
+  <button id="enviar" class="btn btn-light">Enviar</button>
+  </form>
+  </div>
+  <div class="registro-title">
+  
+  <div class="showcase-text">
+    <h1>
+      <h2><span class="title-one">SI SOS PRODUCTOR Y/O COMERCIANTE FLORICULTOR </span><br /> </h2>
+      <h3><span class="title-two">SUMATE AL EVENTO PARA POTENCIAR EL COMERCIO LOCAL</span><br></h3>
+      <h2><span class="title-two">REGISTRATE</span><br /></h2>
+      <h3><span class="title-two">LUEGO</span><br /></h3>
+      <h2><span class="title-two">TE CONTACTAREMOS</span><br /></h2>
+    </h1>
+    
+  </div>
+  </div>
+  </div>
+  </section>
+</div>
+<footer>
+  <section id="tiempo">
+  <div class="clima">
+    <table class="table table-striped-columns rounded">
+      <thead>
+        <tr>
+          <th>Ciudad</th>
+          <th>Temperatura</th>
+          <th>Descripción</th> 
+        </tr>
+      </thead>
+      <tbody id="data">
+  
+      </tbody>
+</table>
+</div>
+</section>
+  <section id="contacto">
+  <div class="contactowha">
+  <h2 id="contactowhatsapp">
+    Ante cualquier consulta, comuníquese al :
+  </h2>
+  <div class="logocontacto">
+    <a href="https://wa.me/5493884410626"
+      ><img id="iconowhatsapp" src="./assets/whatsapp-1.png" alt="iconowhats"
+    /></a>
+    <a href="http://www.produccion.jujuy.gob.ar/"
+      ><img id="iconoproduccion" src="./assets/logo_jujuy.png" alt="iconoprod"
+    /></a>
+    <a href="https://www.facebook.com/ProduccionJujuy/"
+    ><img id="iconofacebook" src="./assets/facebook-1.png" alt="iconoface"
+  /></a>
+  <a href="https://twitter.com/ProduccionJujuy"
+    ><img id="iconotwitter" src="./assets/twitter-1.png" alt="iconotwit"
+  /></a>
+  </div>
+</div>
+</section>
+</footer>
+<script src="./js/main.js"></script>
+  </body>
 </html>
